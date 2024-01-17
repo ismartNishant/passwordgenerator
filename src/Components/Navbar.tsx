@@ -27,7 +27,7 @@ export function Navbar() {
                     <button
                         onClick={() => document.body.style.backgroundColor = "rgb(129 140 248 )"}
                         type="button"
-                        className="rounded-md bg-transparent px-3 py-2 text-lg font-semibold  bg-indigo-400 text-white hover:bg-indigo-400/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                        className="rounded-md border hover:bg-indigo-400 hover:text-black border-indigo-400 px-3 py-2 text-sm font-medium text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                     >
                         Indigo Theme
                     </button>
@@ -69,7 +69,7 @@ export function Navbar() {
                                     <button
                                         onClick={() => document.body.style.backgroundColor = "rgb(129 140 248 )"}
                                         type="button"
-                                        className="rounded-md bg-transparent px-3 py-2 text-lg font-semibold  bg-indigo-400 text-white hover:bg-indigo-400/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                                        className="rounded-md border hover:bg-indigo-400 hover:text-black border-indigo-400 px-3 py-2 text-sm font-medium text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                     >
                                         Indigo Theme
                                     </button>
