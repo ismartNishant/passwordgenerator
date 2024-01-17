@@ -22,19 +22,21 @@ export function Navbar() {
                     </span>
                     <span className="text-3xl font-bold ">PASW-Generator</span>
                 </div>
-               
+
                 <div className="hidden space-x-2  lg:block">
                     <button
+                        onClick={() => document.body.style.backgroundColor = "rgb(129 140 248 )"}
                         type="button"
-                        className="rounded-md bg-transparent px-3 py-2 text-lg font-semibold text-black hover:bg-indigo-400/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                        className="rounded-md bg-transparent px-3 py-2 text-lg font-semibold  bg-indigo-400 text-white hover:bg-indigo-400/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                     >
-                        Sign In
+                        Indigo Theme
                     </button>
-                    <button
+                    <button onClick={() => document.body.style.backgroundColor = "#fff"}
+
                         type="button"
                         className="rounded-md border hover:bg-indigo-400 hover:text-black border-indigo-400 px-3 py-2 text-sm font-medium text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                     >
-                        Log In
+                        Default Theme
                     </button>
                 </div>
                 <div className="lg:hidden">
@@ -62,19 +64,21 @@ export function Navbar() {
                                         </button>
                                     </div>
                                 </div>
-                               
+
                                 <div className="mt-2 justify-center  gap-2 mx-auto flex items-center ">
                                     <button
+                                        onClick={() => document.body.style.backgroundColor = "rgb(129 140 248 )"}
                                         type="button"
-                                        className="w-auto rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                                        className="rounded-md bg-transparent px-3 py-2 text-lg font-semibold  bg-indigo-400 text-white hover:bg-indigo-400/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                                     >
-                                        Sign In
+                                        Indigo Theme
                                     </button>
-                                    <button
+                                    <button onClick={() => document.body.style.backgroundColor = "#fff"}
+
                                         type="button"
-                                        className="w-auto rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                                        className="rounded-md border hover:bg-indigo-400 hover:text-black border-indigo-400 px-3 py-2 text-sm font-medium text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                     >
-                                        Log In
+                                        Default Theme
                                     </button>
                                 </div>
                             </div>
